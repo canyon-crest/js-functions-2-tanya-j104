@@ -94,8 +94,8 @@ function distance(x1, y1, x2, y2) {
 let xsquared = Math.pow(x2 - x1, 2);
 let ysquared = Math.pow(y2 - y1, 2);
 let sum = xsquared + ysquared;
-let result = Math.sqrt(sum).toFixed(2);
-return Number(result);
+let answer = Math.sqrt(sum).toFixed(2);
+return answer
 }
 
 
